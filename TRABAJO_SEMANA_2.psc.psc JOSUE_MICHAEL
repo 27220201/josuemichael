@@ -1,0 +1,164 @@
+Algoritmo EJEMPLO_1
+	n1 = 55
+	n2 = 234
+	st = n1 + n2
+	Escribir 'la suma es:', st
+FinAlgoritmo
+
+Algoritmo EJEMPLO_2
+	Escribir "ingrese el primer numero:"
+	leer n1
+	escribir "ingrese el segundo numero:"
+	Leer n2
+	Escribir "ingrese el tercer numero:"
+	leer n3
+	st =n1 + n2 + n3 
+	Escribir "la suma es: " , st 
+FinAlgoritmo
+
+Algoritmo EJEMPLO_3
+	Escribir N1, N2, N3, SUMA 
+	Escribir "ingrese el primer numero:"
+	leer n1
+	Escribir "ingrese el segundo numero:"
+	Leer n2
+	Escribir "ingrese el tercero numero:"
+	leer n3
+	P = (n1 + n2 + n3)
+	PR = (N1 + N2 + N3 )/3
+	Escribir "la suma total:",ST
+	Escribir "el promedio es:",P
+FinAlgoritmo
+
+
+Algoritmo EJEMPLO_4
+	Escribir N1, N2, N3, SUMA 
+	Escribir 'ingrese el primer numero:'
+	leer n1
+	Escribir 'ingrese el segundo numero:'
+	Leer n2
+	Escribir 'ingrese el tercero numero:'
+	leer n3
+	ST = (N1+N2+N3)
+	IGV = (ST+ST*0.18)-(ST)
+	Escribir 'El subtotal:',ST
+	Escribir 'el IGV es: ', IGV
+FinAlgoritmo
+
+
+Algoritmo EJEMPLO_5
+	Escribir 'INGRESE LA ALTURA DEL:'
+	Leer H
+	Escribir 'INGRESE LA BASE DEL C:'
+	Leer B
+	R=(B/2)
+	Escribir 'EL RADIO DEL CILINDRO: '
+	AC= ((2*PI)*(R)*(H)+(2*PI)*(R*2))
+	Escribir 'EL RADIO DEL CILINDRO: '
+	ESCRIBIR 'AHORA CONOCIENDO QUE: '
+	Vc = (PI*R^2)*h
+	Escribir 'EL VOLUMEN DEL CILINDRO'
+FinAlgoritmo
+
+
+Algoritmo EJEMPLO_6
+    
+    Escribir "Ingrese el monto en soles:"
+    Leer MS
+    VC <- 3.40
+    MD <- MS / VC
+    
+    Escribir "El equivalente en dólares es:", MD
+    
+FinAlgoritmo
+
+
+
+Algoritmo EJEMPLO_7
+    Escribir "Introduce la velocidad en Km/H: ";
+    Leer Vi;
+    
+    VC <- (Vi * 1000) / (1 * 3600);
+    
+    Escribir "La velocidad en M/S es: ", VC;
+FinAlgoritmo
+
+
+
+Algoritmo EJERCICIO_8
+    ST <- 930
+    IGV <- ST - ST*0.11
+    Q <- ST/2
+    QT <- Q*0.30
+    SN <- IGV + QT
+    Escribir "El sueldo neto es: ", SN
+FinAlgoritmo
+
+
+Algoritmo EJECICIO_9
+    Escribir "Ingrese el primer número:";
+    Leer A;
+    Escribir "Ingrese el segundo número:";
+    Leer B;
+    Escribir "Ingrese el tercer número:";
+    Leer C;
+	NM <- 13;
+    ST <- (A+B+C)/3;
+    P <- ST;
+    NF <- (P*0.8)+(NM*0.2);
+    Escribir "La nota final es:", NF;
+FinAlgoritmo
+
+
+
+Algoritmo CalcularAreaTerreno
+    
+    Escribir "Ingrese la base del terreno: "
+    Leer base
+    
+    Escribir "Ingrese la altura del terreno: "
+    Leer altura
+    
+    area <- base * altura
+    
+    Escribir "El área del terreno es: ", area
+FinAlgoritmo
+
+Algoritmo determinarelaño
+	Escribir "Ingrese año de nacimiento: "
+	Leer año_nacimiento
+	Escribir "Ingrese año actual: "
+	Leer año_actual
+	edad_postulante<-año_actual-año_nacimiento
+	Escribir "La edad del postulante es: ", edad_postulanteFinAlgoritmo
+FinAlgoritmo
+
+Algoritmo CalcularPotenciaElectrica
+    
+    Escribir "Ingrese el valor de la resistencia (R) en ohmios: "
+    Leer resistencia
+    
+    Escribir "Ingrese el valor de la corriente (I) en amperios: "
+    Leer corriente
+    
+    potencia <- resistencia * corriente * corriente
+    
+    Escribir "La potencia eléctrica del circuito es: ", potencia, " vatios"
+FinAlgoritmo
+
+Algoritmo CalcularPrecioFinal
+    
+    Escribir "Ingrese el precio de la compra: "
+    Leer precioCompra
+    
+    Si precioCompra > 3000.00 Entonces
+	descuento <- precioCompra * 0.10
+    Sino
+	descuento <- precioCompra * 0.05
+    FinSi
+    
+    precioFinal <- precioCompra - descuento
+    
+    Escribir "El descuento aplicado es: S/ ", descuento
+    Escribir "El precio final a pagar es: S/ ", precioFinal
+FinAlgoritmo
